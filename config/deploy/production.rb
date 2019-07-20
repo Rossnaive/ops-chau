@@ -20,6 +20,7 @@ set :rvm_ruby_version,        "2.5.5"
 
 #
 set :passenger_restart_with_touch, true
+set :passenger_in_gemfile, true
 
 ##
 set :ssh_options,             { forward_agent: true, user: fetch(:user), keys: %w(~/.ssh/id_rsa.pub) }
